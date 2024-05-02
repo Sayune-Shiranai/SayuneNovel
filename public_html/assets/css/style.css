@@ -20,6 +20,7 @@ html {
     right: 0;
     display: flex;
     justify-content: space-between;
+    padding: 0 40px;
 }
 
 #nav {
@@ -28,6 +29,8 @@ html {
 
 #nav .nav-logo {
     line-height: 60px;
+    font-size: 18px;
+    padding-right: 16px;
 }
 
 #nav .nav-logo a {
@@ -35,7 +38,7 @@ html {
 }
 
 #nav .nav-container {
-
+    font-size: 18px;
 }
 
 
@@ -50,7 +53,8 @@ html {
 
 .nav-container .nav-menu a {
     text-decoration: none;
-    line-height: 60px;    
+    line-height: 60px; 
+    padding: 8px;  
 }
 
 .nav-container .sub-nav-menu {
@@ -59,6 +63,7 @@ html {
 
 .nav-container-user {
     display: flex;
+    font-size: 16px;
 }
 
 .nav-container-user .nav-search {
@@ -79,10 +84,22 @@ html {
 
 .nav-container-user .nav-user li {
     display: inline-block;
+    line-height: 60px;
+    padding: 0 8px;
 }
 
 .nav-container-user .nav-user a {
     text-decoration: none;
+    padding: 6px 12px;
+
+}
+
+.nav-container-user .nav-user .login-user {
+    background-color: #ADADB838;
+}
+
+.nav-container-user .nav-user .sigup-user {
+
 }
 
 #slider {
