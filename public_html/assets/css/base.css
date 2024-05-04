@@ -1,8 +1,10 @@
 :root {
     --white-color: #fff;
     --black-color: #000;
+    --login-color: #ADADB838;
     --text-color: #333;
-    --text1-color: #039be5;
+    --sigup-color: #039be5;
+    
 }
 
 * {

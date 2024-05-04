@@ -14,7 +14,7 @@ html {
 
 #header {
     height: 60px;
-    background-color: black;
+    background-color: var(--white-color);
     top: 0;
     left: 0;
     right: 0;
@@ -67,15 +67,36 @@ html {
 }
 
 .nav-container-user .nav-search {
-
+    position: relative;
+    width: 210px;
+    height: 32px;
+    background-color: var(--white-color);
+    margin-top: 14px;
+    border-radius: 20px;
+    border: 1px solid #0dcaf0;
 }
 
 .nav-container-user .nav-search .search-input {
 
+    padding: 1px 2px;
+    margin-left: 20px;
+    width: 156px;
+    height: 30px;
+    border: 0;
+    outline: none;
+    font-size: 14px;
 }
 
 .nav-container-user .nav-search .search-submit {
-
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: #ccc;
 }
 
 .nav-container-user .nav-user {
@@ -95,11 +116,13 @@ html {
 }
 
 .nav-container-user .nav-user .login-user {
-    background-color: #ADADB838;
+    background-color: var(--login-color);
+    color: var(--sigup-color);
 }
 
 .nav-container-user .nav-user .sigup-user {
-
+    background-color: var(--sigup-color);
+    color: var(--white-color);
 }
 
 #slider {
