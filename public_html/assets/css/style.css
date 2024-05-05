@@ -5,7 +5,7 @@
 }
 
 html {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 
 #main {
@@ -20,7 +20,12 @@ html {
     right: 0;
     display: flex;
     justify-content: space-between;
-    padding: 0 40px;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    position: fixed;
 }
 
 #nav {
@@ -54,11 +59,13 @@ html {
 .nav-container .nav-menu a {
     text-decoration: none;
     line-height: 60px; 
-    padding: 8px;  
+    padding: 8px; 
+    position: relative; 
 }
 
 .nav-container .sub-nav-menu {
-    display: none;
+    position: absolute;
+    list-style-type: none; /*bỏ kiểu danh sách */
 }
 
 .nav-container-user {
@@ -74,6 +81,7 @@ html {
     margin-top: 14px;
     border-radius: 20px;
     border: 1px solid #0dcaf0;
+    margin-inline-end: 25px;
 }
 
 .nav-container-user .nav-search .search-input {
@@ -85,6 +93,7 @@ html {
     border: 0;
     outline: none;
     font-size: 14px;
+
 }
 
 .nav-container-user .nav-search .search-submit {
@@ -97,6 +106,7 @@ html {
     background-color: transparent;
     font-size: 16px;
     color: #ccc;
+
 }
 
 .nav-container-user .nav-user {
@@ -111,22 +121,32 @@ html {
 
 .nav-container-user .nav-user a {
     text-decoration: none;
-    padding: 6px 12px;
+    padding: 10px 12px;
 
 }
 
 .nav-container-user .nav-user .login-user {
     background-color: var(--login-color);
     color: var(--sigup-color);
+    font-weight: 600;/*  độ dày chữ */
+    border-radius: 0.4rem;
 }
 
 .nav-container-user .nav-user .sigup-user {
     background-color: var(--sigup-color);
     color: var(--white-color);
+    font-weight: 600;    
+    border-radius: 0.4rem;
 }
 
 #slider {
 
+}
+
+#content {
+    background-color: var(--content-color);
+    width: 100%;
+    min-height: 1050px;
 }
 
 #footer {
