@@ -40,10 +40,24 @@ html {
 
 #nav .nav-logo a {
     text-decoration: none;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 5px 0;
+}
+
+#nav .nav-logo a img {
+    width: 50px;
+    height: 50px;
 }
 
 #nav .nav-container {
     font-size: 18px;
+
+}
+
+#nav .nav-menu {
+
 }
 
 
@@ -53,20 +67,44 @@ html {
 }
 
 .nav-container .nav-menu li {
-
+    position: relative;
 }
 
 .nav-container .nav-menu a {
     text-decoration: none;
-    line-height: 60px; 
-    padding: 8px; 
-    position: relative; 
+    line-height: 60px;
+    padding: 0 8px;
+    display: block;
 }
 
 .nav-container .sub-nav-menu {
     position: absolute;
     list-style-type: none; /*bỏ kiểu danh sách */
+    background-color: white;
+    top: 100%;
+    left: 0;
+    display: none;
 }
+
+.nav-container .sub-nav-menu li {
+    min-width: 160px;
+}
+
+.nav-container .sub-nav-menu a {
+    line-height: 60px;
+    display: block;
+}
+
+.nav-container li:hover .sub-nav-menu {
+    display: block;
+}
+
+.nav-menu > li:hover > a,
+.sub-nav-menu li:hover a {
+    background-color: black;
+    color: white;
+}
+
 
 .nav-container-user {
     display: flex;
