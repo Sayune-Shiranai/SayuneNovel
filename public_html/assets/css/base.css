@@ -35,6 +35,6 @@ html {
 }
 
 #header {
-    --bs-gutter-x: 26rem;
+    --bs-gutter-x: 20rem;
     --bs-gutter-y: 0;
 }
