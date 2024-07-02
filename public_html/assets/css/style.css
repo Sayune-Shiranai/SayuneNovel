@@ -190,8 +190,17 @@ html {
 
 #slider {
     margin-top: 60px;
-    background: url('/public_html/assets/img/slider/megumi-bg.jpg') top center / cover no-repeat;
-    height: 180px;
+    
+}
+
+.slider-item {
+    /* background: url('/public_html/assets/img/slider/megumi-bg.jpg') top center / cover no-repeat; */
+    background: url('/public_html/assets/img/slider/sekai-ka-kanojo\ ka-erabenai.jpg') top center /contain no-repeat;
+    /* background-size: cover; lấy chiều dài nhất bức ảnh  */
+    /* background-size: contain; lấy chiều dài nhất bức ảnh với điều kiện ko che khuất */
+    width: 100%;
+    height: 50vh; /* 50vh = 50% khung nhìn */
+    /* khung nhìn là màn hình hiển thị */
 }
 
 #mainpart {
@@ -216,35 +225,50 @@ html {
 
 .daily-recent-view {
     background: red;
-    height: 300px;
+    min-height: 300px;
 }
+
+.daily-recent-view .title { 
+    height: 42px;
+
+}
+
+.daily-recent-view .title strong {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.daily-recent-view .title strong a {
+    text-decoration: none;
+    color: #aaa;}
 
 .forum {
     background: BLUE;
-    height: 300px;
+    min-height: 300px;
 }
 
 .item-new {
     background-color: green;
-    height: 300px;
-    margin-bottom: 20px;
+    min-height: 300px;
+    margin-bottom: 40px;
 }
 
 .item-update {
     background-color: yellow;
-    height: 300px;
+    min-height: 300px;
 
 }
 
 .follow-item {
     background-color: pink;
-    height: 300px;
-    margin-bottom: 20px;
+    min-height: 300px;
+    margin-bottom: 40px;
 }
 
 .comment {
     background-color: purple;
-    height: 300px;
+    min-height: 300px;
 
 }
 
@@ -252,3 +276,9 @@ html {
 
 }
 
+#footer i {
+   
+    width: 40px;
+    height: 40px;
+    color: black;
+}

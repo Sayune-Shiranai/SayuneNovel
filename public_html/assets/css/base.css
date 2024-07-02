@@ -48,7 +48,20 @@ html {
     padding: 0 15px;
 }
 
+.font_weight {
+    font-weight: 600;
+}
+
 #header {
     --bs-gutter-x: 20rem;
     --bs-gutter-y: 0;
+}
+
+.title-active {
+    box-sizing: border-box;
+    background: rgba(25, 26, 26, .8);
+    padding: 10px 10px;
+    font-size: 18px;
+    color: white;
+
 }
