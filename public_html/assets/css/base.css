@@ -60,7 +60,7 @@ html {
 .title-active {
     box-sizing: border-box;
     background: rgba(25, 26, 26, .8);
-    padding: 14px 14px;
+    padding: 6px 10px;
     font-size: 18px;
     color: white;
 

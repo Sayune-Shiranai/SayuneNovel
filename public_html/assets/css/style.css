@@ -229,7 +229,7 @@ html {
 }
 
 .daily-recent-view .title { 
-    height: 50px;
+    height: 34px;
     padding: 7px 0;
     box-sizing: unset;
 }
@@ -237,15 +237,49 @@ html {
 .daily-recent-view .title strong {
     display: inline-block;
     margin-right: 10px;
-
+    
 }
 
 .daily-recent-view .title strong a {
     text-decoration: none;
     color: #aaa;    
     font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.item-stage-outer {
+    height: 280px;
+}
+
+.item-stage-outer .item-stage {
 
 }
+
+.item-stage-outer .item-stage .detail-list-items {
+    height: 280px;
+    width: 200px;
+    margin: 0 10px;
+}
+
+
+.pagination-item {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pagination-item button {
+    height: 15px;
+    margin: 5px;
+    width: 15px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #333;
+}
+
+.pagination-item button.detail-pagination-active {
+    background-color: #bbb;
+}
+
 
 .forum {
     background: BLUE;
