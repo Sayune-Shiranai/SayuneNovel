@@ -3,13 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="with = device - with, initial-scale = 1.0">
-        <meta http-equiv="refresh" content="30">
+        <!-- <meta http-equiv="refresh" content="30"> -->
         <title>SayuneNovel</title>
         <link rel="icon" type="image/x-icon" href="">
         <link rel="stylesheet" href="./public_html/assets/css/style.css">
         <link rel="stylesheet" href="./public_html/assets/css/base.css">
         <link rel="stylesheet" href="./public_html/assets/icon/themify-icons-font/themify-icons/themify-icons.css">
         <link rel="stylesheet" href="./public_html/assets/icon/fontawesome-free-6.5.2-web/css/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- Bao gồm Owl Carousel JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <!-- Bao gồm CSS tùy chỉnh -->
     </head>
 
     <body>
@@ -61,9 +68,9 @@
                 <!-- end nav -->
                 
 
-            <div id="slider">
+            <div id="banner">
                 <a href="#">
-                    <div class="slider-item">
+                    <div class="banner-item" style="background-image: url(/public_html/assets/img/slider/sekai-ka-kanojo\ ka-erabenai.jpg);">
                         
                     </div>
                 </a>
@@ -88,57 +95,141 @@
                                     <strong><a href="">Top ngày</a></strong>
                                 </div>
 
-                                <div class="top-list-item">
-                                    <div class="item-stage-outer">
-                                        <div class="item-stage">
-                                            <div class="detail-list-items">
-                                                <div class="detail-items">
-                                                    <a href=""></a>
-                                                </div>
+                                <div id="slider-top-item" class="owl-carousel owl-theme">
+                                    <div class="detail-list-items" id="top-slide0">
+                                        <a href="#" title="Cái Thế giới Otomegame đó thật Khắc nghiệt với Chúng tôi">
+                                            <div class="top-img" style="background-image: url(/public_html/assets/img/top-list/Cái-Thế-giới-Otomegame-đó-thật-Khắc-nghiệt-với-Chúng-tôi.jpg);" alt="First slide">
                                             </div>
+                                        </a>
 
-                                            <div class="detail-list-items">
-                                                <div class="detail-items">
-                                                    <a href=""></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="detail-list-items">
-                                                <div class="detail-items">
-                                                    <a href=""></a>
-                                                </div>
-                                            </div>
-                                        
-                                            <div class="detail-list-items">
-                                                <div class="detail-items">
-                                                    <a href=""></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="detail-list-items">
-                                                <div class="detail-items">
-                                                    <a href=""></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="detail-list-items">
-                                                <div class="detail-items">
-                                                    <a href=""></a>
-                                                </div>
-                                            </div>
-                                        </div>    
+                                        <div class="title-items">
+                                            <a href="#" title="Cái Thế giới Otomegame đó thật Khắc nghiệt với Chúng tôi"></a>>
+                                            Cái Thế giới Otomegame đó thật Khắc nghiệt với Chúng tôi
+                                            </a>
+                                        </div>
                                     </div>
-                                    
-                                    <div class="pagination-item">
-                                        <button role="button" class="detail-pagination-active">
 
-                                        </button>
+                                    <div class="detail-list-items" id="top-slide1">
+                                        <a href="#" title="Công chúa Bạch long muốn biến tôi thành công chúa thiên bạch ngọc">
+                                            <div class="top-img" style="background-image: url(/public_html/assets/img/top-list/Công-chúa-Bạch-long-muốn-biến-tôi-thành-công-chúa-thiên-bạch-ngọc..jpg);" alt="Second slide">
+                                            </div>
+                                        </a>
 
-                                        <button role="button" class="detail-pagination">
-
-                                        </button>
+                                        <div class="title-items">
+                                            <a href="#" title="Công chúa Bạch long muốn biến tôi thành công chúa thiên bạch ngọc"></a>>
+                                            Công chúa Bạch long muốn biến tôi thành công chúa thiên bạch ngọc
+                                            </a>
+                                        </div>
                                     </div>
+
+                                    <div class="detail-list-items" id="top-slide2">
+                                        <a href="#" title="Người hướng ngoại và ghét sách như tôi lại phải lòng Phù Thủy Thư Viện">
+                                            <div class="top-img" style="background-image: url(/public_html/assets/img/top-list/Người-hướng-ngoại-và-ghét-sách-như-tôi-lại-phải-lòng-Phù-Thủy-Thư-Viện.jpg);">
+                                            </div>
+                                        </a>
+
+                                        <div class="title-items">
+                                            <a href="#" title="Người hướng ngoại và ghét sách như tôi lại phải lòng Phù Thủy Thư Viện"></a>>
+                                            Người hướng ngoại và ghét sách như tôi lại phải lòng "Phù Thủy Thư Viện"
+                                            </a>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="detail-list-items" id="top-slide3">
+                                        <a href="#" title="Zettai ni Hatarakitakunai Dungeon Master ga Damin wo Musaboru made">
+                                            <div class="top-img" style="background-image: url(/public_html/assets/img/top-list/Zettai-ni-Hatarakitakunai-Dungeon-Master-ga-Damin-wo-Musaboru-made.jpg);">
+                                            </div>
+                                        </a>
+
+                                        <div class="title-items">
+                                            <a href="#" title="Zettai ni Hatarakitakunai Dungeon Master ga Damin wo Musaboru made"></a>>
+                                            Zettai ni Hatarakitakunai Dungeon Master ga Damin wo Musaboru made
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="detail-list-items" id="top-slide4">
+                                        <a href="#" title="Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka">
+                                            <div class="top-img" style="background-image: url(/public_html/assets/img/top-list/Dungeon-`ni-Deai-wo-Motomeru-no-wa-Machigatteiru-Darou-ka.jpg);">
+                                            </div>
+                                        </a>
+
+                                        <div class="title-items">
+                                            <a href="#" title="Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka"></a>>
+                                            Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="detail-list-items" id="top-slide5">
+                                        <a href="#" title="Cậu sẽ ủng hộ tớ, người đem lòng thích cậu chứ?">
+                                            <div class="top-img" style="background-image: url(/public_html/assets/img/top-list/Cậu-sẽ-ủng-hộ-tớ-người-đem-lòng-thích-cậu-chứ.jpg);">
+                                            </div>
+                                        </a>
+
+                                        <div class="title-items">
+                                            <a href="#" title="CCậu sẽ ủng hộ tớ, người đem lòng thích cậu chứ?"></a>>
+                                            Cậu sẽ ủng hộ tớ, người đem lòng thích cậu chứ?
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="detail-list-items" id="top-slide6">
+                                        <a href="#" title="In no jitsury okusha ni naritakute!">
+                                                <div class="top-img" style="background-image: url(/public_html/assets/img/top-list/In-no-jitsury-okusha-ni-naritakute!.jpg);">
+                                                </div>
+                                            </a>
+
+                                            <div class="title-items">
+                                                <a href="#" title="In no jitsury okusha ni naritakute!"></a>>
+                                                In no jitsury okusha ni naritakute!
+                                                </a>
+                                            </div>
+                                    </div>
+
+                                    <div class="detail-list-items" id="top-slide7">
+                                        <a href="#" title="Mushoku Tensei">
+                                            <div class="top-img" style="background-image: url(/public_html/assets/img/top-list/Mushoku-tensei.jpg);">
+                                            </div>
+                                        </a>
+
+                                        <div class="title-items">
+                                            <a href="#" title="Mushoku Tensei"></a>>
+                                            Mushoku Tensei
+                                            </a>
+                                        </div>
+                                    </div> 
+
                                 </div>
+
+                                <script>
+                                   $(document).ready(function(){
+                                        $('.owl-carousel').owlCarousel({
+                                            loop:true,
+                                            margin:10,
+                                            nav:true,
+                                            responsive:{
+                                                0:{
+                                                    items:1
+                                                },
+
+                                                930:{
+                                                    items:4
+                                                }
+                                            },
+                                            autoplay: true, // Tự động chuyển slide
+                                            slideBy: 4, // Chuyển đổi 4 slide cùng lúc
+                                            autoplayTimeout: 4000, // Thời gian chờ giữa các slide (3 giây)
+                                            onInitialized: function(event) {
+
+                                            // Đặt lại thuộc tính transform
+                                            $('.owl-stage').css('transform', 'translate3d(0px, 0px, 0px)');
+
+                                            
+                                            }
+                                        });
+                                    }); 
+                                </script>
                             </div>
                         </div>
                         

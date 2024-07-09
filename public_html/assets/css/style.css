@@ -26,6 +26,7 @@ html {
     margin-left: auto;
     width: 100%;
     position: fixed;
+    z-index: 2;
 }
 
 #nav {
@@ -188,18 +189,19 @@ html {
     border-radius: 0.4rem;
 }
 
-#slider {
+#banner {
     margin-top: 60px;
     
 }
 
-.slider-item {
+.banner-item {
     /* background: url('/public_html/assets/img/slider/megumi-bg.jpg') top center / cover no-repeat; */
-    background: url('/public_html/assets/img/slider/sekai-ka-kanojo\ ka-erabenai.jpg') top center /contain no-repeat;
+    background: url('/public_html/assets/img/slider/megumi-bg.jpg') top center /contain no-repeat;
     /* background-size: cover; lấy chiều dài nhất bức ảnh  */
     /* background-size: contain; lấy chiều dài nhất bức ảnh với điều kiện ko che khuất */
     width: 100%;
-    height: 50vh; /* 50vh = 50% khung nhìn */
+    /* height: 50vh; 50vh = 50% khung nhìn */
+    height: 289px;
     /* khung nhìn là màn hình hiển thị */
 }
 
@@ -247,38 +249,31 @@ html {
     letter-spacing: 2px;
 }
 
-.item-stage-outer {
-    height: 280px;
+#slider-top-item {
+    /* overflow: hidden; chú thích */
+    width: 930px;
+    min-height: 280px;
 }
 
-.item-stage-outer .item-stage {
 
-}
 
-.item-stage-outer .item-stage .detail-list-items {
+.detail-list-items {
     height: 280px;
     width: 200px;
-    margin: 0 10px;
+    position: relative;
 }
 
-
-.pagination-item {
-    text-align: center;
-    margin-top: 10px;
+.top-img {
+    height: 280px;
+    width: 200px;
+    position: absolute;
+    background-size: cover;
+}
+.title-items {
+    position: absolute;
+    bottom: 0;
 }
 
-.pagination-item button {
-    height: 15px;
-    margin: 5px;
-    width: 15px;
-    border-radius: 50%;
-    border: 0;
-    background-color: #333;
-}
-
-.pagination-item button.detail-pagination-active {
-    background-color: #bbb;
-}
 
 
 .forum {
