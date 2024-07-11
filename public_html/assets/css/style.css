@@ -230,11 +230,6 @@ html {
     min-height: 330px;
 }
 
-.daily-recent-view .title { 
-    height: 34px;
-    padding: 7px 0;
-    box-sizing: unset;
-}
 
 .daily-recent-view .title strong {
     display: inline-block;
@@ -245,7 +240,7 @@ html {
 .daily-recent-view .title strong a {
     text-decoration: none;
     color: #aaa;    
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 2px;
 }
 
@@ -303,6 +298,18 @@ html {
 .forum {
     background: BLUE;
     min-height: 330px;
+}
+.forum .title strong {
+    color: white;
+    display: inline-block;
+}
+
+.forum .title strong.title-empty{
+    color: black;    
+    font-size: 16px;
+    margin: 6px;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .item-new {

@@ -57,11 +57,17 @@ html {
     --bs-gutter-y: 0;
 }
 
-.title-active {
+.title { 
+    height: 34px;
+    padding: 7px 0;
+    box-sizing: unset;
+}
+
+.title-bold {
     box-sizing: border-box;
     background: rgba(25, 26, 26, .8);
     padding: 6px 10px;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
 
 }
