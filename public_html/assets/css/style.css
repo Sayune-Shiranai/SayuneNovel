@@ -221,10 +221,6 @@ html {
     padding: 20px 0;
 }
 
-.row {
-    display: flex;
-}
-
 .daily-recent-view {
     background: red;
     min-height: 330px;
@@ -241,7 +237,11 @@ html {
     text-decoration: none;
     color: #aaa;    
     font-size: 16px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.daily-recent-view .title strong a:hover {
+    color: var(--sigup-color);
 }
 
 #slider-top-item {
@@ -297,7 +297,7 @@ html {
 
 .forum {
     background: BLUE;
-    min-height: 330px;
+    min-height: 100%;
 }
 .forum .title strong {
     color: white;
@@ -309,8 +309,23 @@ html {
     font-size: 16px;
     margin: 6px;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: 2px underline;
+    /* position: relative; */
 }
+
+.forum .title strong.title-empty:hover{
+    color: var(--sigup-color);   
+}
+
+/* .forum .title strong.title-empty::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px; Điều chỉnh khoảng cách này để thay đổi khoảng cách giữa chữ và dấu gạch chân
+    height: 1px; Độ dày của dấu gạch chân
+    background-color: black;  Màu sắc của dấu gạch chân
+} */
 
 .item-new {
     background-color: green;
