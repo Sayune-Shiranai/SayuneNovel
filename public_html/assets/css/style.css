@@ -327,6 +327,37 @@ html {
     background-color: black;  Màu sắc của dấu gạch chân
 } */
 
+.list-forum {
+
+}
+
+.forum-item {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.list-forum i {
+    margin-right: 4px;
+    font-size: 12px;
+}
+.title-forum {
+    font-size: 14px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.forum-time {
+    position: relative;
+}
+
+.timeago {
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .4);
+}
+
 .item-new {
     background-color: green;
     min-height: 330px;
