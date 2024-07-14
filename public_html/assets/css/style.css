@@ -222,8 +222,12 @@ html {
 }
 
 .daily-recent-view {
-    background: red;
+    /* background: red; */
     min-height: 330px;
+}
+
+.daily-view-container {
+    padding: 7px 0;
 }
 
 
@@ -295,10 +299,20 @@ html {
     color: white;
 }
 
+.series-title a:hover {
+    color: var(--sigup-color);
+}
+
+
 .forum {
-    background: BLUE;
+    /* background: BLUE; */
     min-height: 100%;
 }
+
+.forum-container {
+    padding: 18px 0;
+}
+
 .forum .title strong {
     color: white;
     display: inline-block;
@@ -328,7 +342,7 @@ html {
 } */
 
 .list-forum {
-
+    /* margin-top: 10px; */
 }
 
 .forum-item {
@@ -339,12 +353,16 @@ html {
 
 .list-forum i {
     margin-right: 4px;
-    font-size: 12px;
+    font-size: 14px;
 }
 .title-forum {
     font-size: 14px;
     text-decoration: none;
     color: inherit;
+}
+
+.title-forum:hover {
+    color: var(--sigup-color);
 }
 
 .forum-time {
