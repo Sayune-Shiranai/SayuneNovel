@@ -74,7 +74,16 @@ html {
     padding: 6px 10px;
     font-size: 16px;
     color: white;
+    text-decoration: none;
 
+}
+.title-empty{
+    color: black;    
+    font-size: 16px;
+    margin: 6px;
+    text-transform: uppercase;
+    text-decoration: 2px underline;
+    /* position: relative; */
 }
 
 .top-slide-active {

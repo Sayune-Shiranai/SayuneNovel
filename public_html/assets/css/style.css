@@ -382,10 +382,34 @@ html {
     margin-bottom: 40px;
 }
 
+.item-new-container {
+    padding: 18px 0;
+}
+
+.item-new-container a strong {
+    display: inline-block;
+}
+
+.item-new-container strong.title-empty:hover{
+    color: var(--sigup-color);   
+}
+
 .item-update {
     background-color: yellow;
     min-height: 330px;
 
+}
+
+.item-update-container {
+    padding: 18px 0;
+}
+
+.item-update-container a strong {
+    display: inline-block;
+}
+
+.item-update-container strong.title-empty:hover{
+    color: var(--sigup-color);   
 }
 
 .follow-item {
@@ -394,11 +418,37 @@ html {
     margin-bottom: 40px;
 }
 
+.follow-item-container {
+    padding: 18px 0;
+}
+
+.follow-item-container strong{
+
+}
+
+.follow-item-container strong a{
+    display: inline-block;
+}
+
+
 .comment {
     background-color: purple;
     min-height: 330px;
 
 }
+
+.comment-container {
+    padding: 18px 0;
+}
+
+.comment-container strong {
+
+}
+
+.comment-container strong a{
+    display: inline-block;
+}
+
 
 #footer {
 
