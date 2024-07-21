@@ -394,6 +394,38 @@ html {
     color: var(--sigup-color);   
 }
 
+.list-item-new {
+
+}
+
+.detail-item-new {
+
+}
+
+.item-new-wrapper {
+    position: relative;
+    width: 130px;
+    height: 186px;
+}
+
+.item-new-wrapper .new-img {
+    width: 130px;
+    height: 186px;
+    position: absolute;
+}
+
+.title-items-new {
+
+}
+
+.title-items-new .chapter-item-new{
+    
+}
+
+.title-items-new .time-item-new{
+    
+}
+
 .item-update {
     background-color: yellow;
     min-height: 330px;
@@ -410,6 +442,10 @@ html {
 
 .item-update-container strong.title-empty:hover{
     color: var(--sigup-color);   
+}
+
+.list-item-update {
+    
 }
 
 .follow-item {

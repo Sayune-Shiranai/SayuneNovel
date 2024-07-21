@@ -39,6 +39,10 @@ html {
     flex-wrap: wrap;
 }
 
+.col-lg-2 {
+    flex: 0 0 0 0 16.66666667%;
+    max-width: 16.66666667%;
+}
 
 .col-lg-3 {
     max-width: 25%;
