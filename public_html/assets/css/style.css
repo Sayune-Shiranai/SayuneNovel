@@ -406,6 +406,7 @@ html {
     position: relative;
     width: 130px;
     height: 186px;
+    color: white;
 }
 
 .item-new-wrapper .new-img {
@@ -415,15 +416,49 @@ html {
 }
 
 .title-items-new {
-
+    background: linear-gradient(180deg, transparent 0, rgba(0, 0, 0, .8) 67%, rgba(0, 0, 0, .8));
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
 }
 
-.title-items-new .chapter-item-new{
+.title-items-new .chapter-item-new {
     
 }
 
-.title-items-new .time-item-new{
+.title-items-new .chapter-item-new a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.title-items-new .time-item-new {
     
+}
+
+.title-items-new .time-item-new .time-new {
+    font-size: 13px;
+    color: var(--sigup-color);
+}
+
+.series-title-new {
+    width: 130px;
+    height: 42px;
+    margin-bottom: 4px;
+    margin-top: 6px;
+    text-align: center;
+    overflow: hidden;
+    font-weight: 700;
+}
+
+.series-title-new a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
 }
 
 .item-update {
