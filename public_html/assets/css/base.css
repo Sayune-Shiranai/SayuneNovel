@@ -40,7 +40,7 @@ html {
 }
 
 .col-lg-2 {
-    flex: 0 0 0 0 16.66666667%;
+    flex: 0 0 16.66666667%;
     max-width: 16.66666667%;
 }
 
@@ -88,6 +88,10 @@ html {
     text-transform: uppercase;
     text-decoration: 2px underline;
     /* position: relative; */
+}
+
+.see-more {
+    
 }
 
 .top-slide-active {
