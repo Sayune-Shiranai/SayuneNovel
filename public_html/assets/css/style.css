@@ -463,6 +463,20 @@ html {
     color: black;
 }
 
+.item-new-see-more {
+    position: absolute;
+    width: 130px;
+    height: 42px;
+    margin-bottom: 4px;
+    margin-top: 6px;
+    text-align: center;
+}
+.item-new-see-more a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
 .item-update {
     background-color: yellow;
     min-height: 330px;
