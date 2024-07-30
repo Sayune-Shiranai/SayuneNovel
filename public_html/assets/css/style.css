@@ -472,9 +472,17 @@ html {
     text-align: center;
 }
 .item-new-see-more a {
-    font-size: 14px;
     text-decoration: none;
     color: black;
+}
+
+.see-more-icon {
+    font-size: 40px;
+}
+
+
+.see-more-text {
+    font-size: 14px;
 }
 
 .item-update {
