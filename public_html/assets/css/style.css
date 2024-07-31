@@ -463,27 +463,28 @@ html {
     color: black;
 }
 
-.item-new-see-more {
+.see-more-icon {
+    font-size: 50px;
     position: absolute;
-    width: 130px;
-    height: 42px;
     margin-bottom: 4px;
     margin-top: 6px;
     text-align: center;
 }
-.item-new-see-more a {
+
+.see-more-icon a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
-.see-more-icon {
-    font-size: 40px;
+.see-more-icon a:hover {
+    color: var(--sigup-color);
 }
 
-
-.see-more-text {
-    font-size: 14px;
+.see-more-icon a i {
+    width: 130px;
+    line-height: 186px;
 }
+
 
 .item-update {
     background-color: yellow;
