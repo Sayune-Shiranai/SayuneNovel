@@ -50,6 +50,11 @@ html {
     flex: 0 0 25%;
 }
 
+.col-lg-8 {
+    flex: 0 0 66.66666667%;
+    max-width: 66.66666667%;
+}
+
 .col-lg-9 {
     max-width: 75%;
     flex: 0 0 75%;

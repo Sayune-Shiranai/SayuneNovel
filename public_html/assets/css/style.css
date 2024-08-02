@@ -615,6 +615,64 @@ html {
     display: inline-block;
 }
 
+.list-follow-item {
+
+}
+
+.detail-follow-item {
+
+}
+
+.series-folow-item {
+    height: 70px;
+    width: 50px;
+    position: relative;
+}
+
+.series-folow-item a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.title-follow-item {
+    
+}
+
+.text-follow-item {
+
+}
+
+.text-follow-item a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.chapter-follow-item {
+
+}
+
+.chapter-follow-item a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+}
 
 .comment {
     background-color: purple;
