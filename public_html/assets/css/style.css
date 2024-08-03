@@ -642,11 +642,11 @@ html {
 }
 
 .title-follow-item {
-    
+    padding: 0 15px;
 }
 
 .text-follow-item {
-
+    padding-bottom: 2px;
 }
 
 .text-follow-item a{
