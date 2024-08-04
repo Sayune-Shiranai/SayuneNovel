@@ -620,7 +620,7 @@ html {
 }
 
 .detail-follow-item {
-
+    padding-bottom: 12px;
 }
 
 .series-folow-item {
@@ -658,6 +658,7 @@ html {
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+    color: black;
 }
 
 .chapter-follow-item {
@@ -671,7 +672,8 @@ html {
     width: 100%;
     display: block;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
+    color: black;
 }
 
 .comment {
@@ -690,6 +692,63 @@ html {
 
 .comment-container strong a{
     display: inline-block;
+}
+
+.list-comment {
+    height: 700px;
+    overflow: auto;
+    padding-right: 20px;
+}
+
+.comment-info {
+
+}
+
+.series-name {
+    
+}
+.series-name a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    display: block;
+}
+
+.comment-user {
+
+}
+
+
+.comment-user-avt {
+
+}
+
+.comment-user-avt a {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: black;
+    font-size: 14px;
+}
+
+.comment-user-name {
+
+}
+
+.comment-user-name a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+.comment-content {
+    font-size: 13px;
 }
 
 
