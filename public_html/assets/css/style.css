@@ -378,7 +378,6 @@ html {
 }
 
 .item-new {
-    background-color: green;
     min-height: 330px;
     margin-bottom: 40px;
 }
@@ -505,7 +504,6 @@ html {
 
 
 .item-update {
-    background-color: yellow;
     min-height: 330px;
 
 }
@@ -598,7 +596,6 @@ html {
 
 
 .follow-item {
-    background-color: pink;
     min-height: 330px;
     margin-bottom: 40px;
 }
@@ -616,7 +613,7 @@ html {
 }
 
 .list-follow-item {
-
+    padding-top: 10px;
 }
 
 .detail-follow-item {
@@ -677,7 +674,6 @@ html {
 }
 
 .comment {
-    background-color: purple;
     min-height: 330px;
 
 }
@@ -701,11 +697,13 @@ html {
 }
 
 .comment-info {
-
+    border-bottom: 1px solid #d4dae2;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .series-name {
-    
+    margin-bottom: 6px;
 }
 .series-name a{
     text-decoration: none;
@@ -720,24 +718,31 @@ html {
 }
 
 .comment-user {
-
+    margin-bottom: 6px;
 }
 
 
 .comment-user-avt {
-
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+    float: left;
 }
 
 .comment-user-avt a {
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: contain;
     color: black;
     font-size: 14px;
 }
 
-.comment-user-name {
+.comment-user-avt a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    display: block;
+}
 
+.comment-user-name {
+    display: inline-block;
 }
 
 .comment-user-name a {
@@ -747,18 +752,21 @@ html {
     color: black;
 }
 
+.time-user-comment {
+    color: rgba(0, 0, 0, .4);
+    float: right;
+}
+
+.time-comment {
+
+}
+
 .comment-content {
     font-size: 13px;
 }
 
 
 #footer {
-
-}
-
-#footer i {
-   
-    width: 40px;
-    height: 40px;
-    color: black;
+    width: 100%;
+    height: 100px;
 }
