@@ -102,7 +102,7 @@ html {
     display: block;
 }
 
-.nav-menu > li:hover > a,
+.nav-menu > li > a:hover,
 .sub-nav-menu li:hover a {
     color: #039be5;
 }
