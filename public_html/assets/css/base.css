@@ -51,7 +51,7 @@ html {
 }
 
 .col-lg-8 {
-    flex: 0 0 66.66666667%;
+    flex: 0 0 auto;
     max-width: 66.66666667%;
 }
 
@@ -95,6 +95,7 @@ html {
     text-decoration: 2px underline;
     /* position: relative; */
 }
+
 
 .see-more {
     
