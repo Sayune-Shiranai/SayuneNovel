@@ -238,6 +238,8 @@ html {
     border-radius: 0 0 10px 10px;
     position: relative;
     z-index: 0;
+    height: auto;
+    top: 0%;
 }
 
 .background-sub {
@@ -248,7 +250,7 @@ html {
 }
 
 .background-data {
-    width: 100%;
+    background-image: url('/public_html/assets/img/background-profile/saekano.jpg');
 }
 
 .profile-info {
@@ -256,8 +258,12 @@ html {
     align-items: center;
     position: relative;
     height: auto;
-    z-index: 2;
+    z-index: 1;
     padding: 0 30px;
+}
+
+.profile-container {
+
 }
 
 .avatar-profile {
@@ -268,3 +274,47 @@ html {
     background-size: cover;
 
 }
+
+.avatar-profile-user {
+    height: 172px;
+    width: 172px;
+    border-radius: 50%;
+    background: white;
+    top: -72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.avatar-data {
+    background-image: url('/public_html/assets/img/avt/jindou-hikari.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    width: 164px;
+    height: 164px;
+    border: solid 0.5px rgba(0, 0, 0, 0.3);
+    position: relative;
+
+}
+
+.info-user {
+    padding: 0 20px;
+}
+
+.name-user {
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    height: inherit;
+}
+
+.container {
+    min-height: 500px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
