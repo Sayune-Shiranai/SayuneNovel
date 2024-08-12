@@ -320,3 +320,31 @@ html {
     width: 100%;
 }
 
+.title-profile {
+    margin: 0 20px 20px;
+    width: 100%;
+}
+
+.level-profile {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.level-profile strong {
+    height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.statistic-profile {
+    background-color: red;
+}
+
+.statistic-value {
+    height: 30px;
+}
+
+.statistic-name {
+    height: 21px;
+}
+
