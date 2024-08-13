@@ -196,7 +196,7 @@ html {
 }
 
 .profile-user {
-
+    padding-bottom: 20px;
 }
 
 .profile-background {
@@ -336,8 +336,47 @@ html {
     font-weight: 500;
 }
 
+.exp-profile {
+    width: 100%;
+    border-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+    position: relative;
+    height: 20px;
+}
+
+.detail-exp-profile {
+    --tw-bg-opacity: 1;
+    background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+    width: 50%;
+    height: 100%;
+    border-radius: 9999px;
+    --tw-text-opacity: 1;
+    color: rgb(219 234 254 / var(--tw-text-opacity));
+}
+
+.rate-exp-profile {
+    padding: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.text-exp-profile {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+}
+
 .statistic-profile {
-    background-color: red;
+    padding: 10px 0;
+    background-color: hsla(0, 0%, 100%, .9);
+    border-color: #e4e5e7 #dadbdd hsla(214, 4%, 80%, .8);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .statistic-value {
