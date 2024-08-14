@@ -74,6 +74,10 @@ html {
     padding: 0 15px;
 }
 
+.mt-2 {
+    margin-top: 8px;
+}
+
 .font_weight {
     font-weight: 600;
 }
@@ -107,10 +111,12 @@ html {
 }
 
 
-.see-more {
-    
-}
-
-.top-slide-active {
-    
+.statistic-profile {
+    padding: 10px 0;
+    background-color: hsla(0, 0%, 100%, .9);
+    border-color: #e4e5e7 #dadbdd hsla(214, 4%, 80%, .8);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 16px;
 }
