@@ -320,6 +320,16 @@ html {
     width: 100%;
 }
 
+.statistic-profile {
+    padding: 10px 0;
+    background-color: hsla(0, 0%, 100%, .9);
+    border-color: #e4e5e7 #dadbdd hsla(214, 4%, 80%, .8);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 16px;
+}
+
 .title-profile {
     margin: 0 20px 20px;
     width: 100%;
@@ -385,3 +395,14 @@ html {
     line-height: 21px;
 }
 
+.sect-body {
+    padding: 15px;
+}
+
+.profile-info-items {
+    padding-bottom: 4px;
+}
+
+.detail-info-items {
+    font-size: 14px;
+}
