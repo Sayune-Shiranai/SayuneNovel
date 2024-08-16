@@ -406,3 +406,83 @@ html {
 .detail-info-items {
     font-size: 14px;
 }
+
+.profile-showcase {
+    padding-top: 10px;
+    background-color: hsla(0, 0%, 100%, .9);
+    border-color: #e4e5e7 #dadbdd hsla(214, 4%, 80%, .8);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 16px;
+}
+
+.profile-showcase header {
+    border-bottom: 4px solid #111;
+    margin: 0 15px 20px;
+}
+
+.profile-showcase header span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.showcase-item {
+    margin-bottom: 20px;
+}
+
+.series-showcase-item {
+
+}
+
+.showcase-item-img {
+    position: relative;
+}
+
+.showcase-item-img::before {
+    content: "";
+    display: block;
+    padding-top: 143.3333333333%;
+    width: 100%;
+}
+
+.showcase-item-img a{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 50%;
+}
+
+.title-showcase-item {
+    padding: 0 15px 0 30px;
+    position: relative;
+    width: 100%;
+}
+
+.series-info {
+    padding: 10px 10px 10px 0;
+}
+
+.title-series {
+    font-size: 16px;
+}
+
+.title-series a{
+    text-decoration: none;
+}
+
+.detail-series {
+    padding-right: 15px;
+}
+
+.chapter-info {
+    display: inline-block;
+}
+
+.detail-time-info {
+    display: inline-block;
+}
