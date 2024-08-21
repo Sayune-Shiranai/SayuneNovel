@@ -469,20 +469,35 @@ html {
 
 .title-series {
     font-size: 16px;
+    font-weight: 700;
 }
 
 .title-series a{
     text-decoration: none;
+    color: black;
 }
 
 .detail-series {
-    padding-right: 15px;
+    padding-right: 10px;
+    
+}
+
+.chapter-info a {
+    text-decoration: none;
 }
 
 .chapter-info {
     display: inline-block;
+    font-size: 14px;
+}
+
+.chapter-info a {
+    color: black;
 }
 
 .detail-time-info {
     display: inline-block;
+    float: right;
+    color: #999;
+    font-size: 13px;
 }
