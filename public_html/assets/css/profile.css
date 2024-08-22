@@ -472,6 +472,11 @@ html {
     font-weight: 700;
 }
 
+.title-series:hover a {
+    color: var(--text-color-hover);
+    display: block;
+}
+
 .title-series a{
     text-decoration: none;
     color: black;
@@ -482,10 +487,6 @@ html {
     
 }
 
-.chapter-info a {
-    text-decoration: none;
-}
-
 .chapter-info {
     display: inline-block;
     font-size: 14px;
@@ -493,6 +494,11 @@ html {
 
 .chapter-info a {
     color: black;
+    text-decoration: none;
+}
+
+.chapter-info:hover a {
+    color: var(--text-color-hover);
 }
 
 .detail-time-info {
