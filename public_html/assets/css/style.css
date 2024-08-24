@@ -183,6 +183,7 @@ html {
     border-radius: 0.4rem;
     border: none;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .nav-container-user .nav-user .sigup-user {
@@ -192,6 +193,7 @@ html {
     border-radius: 0.4rem;
     border: none;
     font-size: 16px;
+    cursor: pointer;
 }
 
 #banner {
