@@ -1535,21 +1535,46 @@
         </div>
 
         <!-- modal layout -->
+        <!-- authen form (login/register) -->
         <div class="modal">
             <div class="modal-overlay"></div>
 
             <div class="modal-body">
-                <div class="modal-inner">
+                <!-- login form -->
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__logo"></div>
 
-                    <!-- authen form (login/register) -->
-                    <div class="auth-form">
-                        <div class="auth-form-header">
+                        <div class="auth-form__header">
                             <h3 class="auth-form-heading">Đăng nhập</h3>
-                            
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Tên đăng nhập">
+                            </div>
+
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Mật khẩu">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__submit">
+                            <button>Đăng nhập</button>
+                        </div>
+
+                        <div class="auth-form__control">
+                            <div class="auth-form__forgot-password">
+                                <a href="#">Quên mật khẩu?</a>
+                            </div>
+
+                            <div class="auth-form__sign-up">
+                                <a href="#">Đăng ký</a>
+                            </div>
                         </div>
                     </div>
-
                 </div>
+
             </div>
         </div>
     </body>
