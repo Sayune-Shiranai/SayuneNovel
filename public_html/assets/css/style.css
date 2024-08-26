@@ -796,3 +796,86 @@ html {
     line-height: 100px;
     color: white;
 }
+
+.auth-form {
+
+}
+
+.auth-form__container {
+    padding: 32px;
+    text-align: center;
+}
+
+.auth-form__logo {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+    background-size: 100% 100%;
+}
+
+.auth-form__header {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #242629;
+    text-align: center;
+    margin: 18px 0;
+}
+
+.auth-form__form {
+
+}
+
+.auth-form__group {
+    border-radius: 12px;
+    border: 1px solid #c0c4cc;
+    width: 100%;
+    line-height: 32px;
+    position: relative;
+    margin-top: 16px;
+}
+
+.auth-form__input {
+    border-radius: 12px;
+    padding: 14px;
+    width: 100%;
+    font-size: 14px;
+    border: none;
+    outline: 0;
+}
+
+.auth-form__submit {
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.auth-form__submit button{
+    border: none;
+    outline: none;
+    padding: 16px 0;
+    width: 100%;
+}
+
+.auth-form__control {
+
+}
+
+.auth-form__forgot-password {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.auth-form__forgot-password a{
+    text-decoration: none;
+}
+
+.auth-form__sign-up {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.auth-form__sign-up a{
+    text-decoration: none;
+}
+
