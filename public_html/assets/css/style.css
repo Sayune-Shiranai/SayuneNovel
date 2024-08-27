@@ -879,3 +879,66 @@ html {
     text-decoration: none;
 }
 
+.auth-form__aside {
+    margin-top: 16px;
+    font-size: 12px;
+}
+.auth-form__checkbox {
+    display: flex;
+
+}
+
+.auth-form__checkbox-input {
+
+}
+
+.auth-form__checkbox-original {
+
+}
+
+.auth-form__checkbox-inner {
+    cursor: pointer;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: -1px;
+    left: 2px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.auth-form__checkbox-original:checked + .auth-form__checkbox-inner::after {
+    opacity: 0.8;
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 5px;
+    background: transparent;
+    top: 5px;
+    left: 4px;
+    border: 2px solid white;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+}
+
+
+.auth-form__checkbox-text {
+    font-size: 12px;
+    color: #6b707b;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.auth-form__checkbox-text span {
+
+}
+
+
+.auth-form__checkbox-text a {
+    text-decoration: none;
+    color: red;
+}
+
+
