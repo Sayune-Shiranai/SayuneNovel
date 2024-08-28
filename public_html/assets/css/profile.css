@@ -433,6 +433,7 @@ html {
 
 .showcase-item {
     margin-bottom: 20px;
+    display: none;
 }
 
 .series-showcase-item {

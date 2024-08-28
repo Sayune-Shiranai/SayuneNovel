@@ -848,35 +848,38 @@ html {
 .auth-form__submit {
     margin-top: 20px;
     margin-bottom: 12px;
-}
-
-.auth-form__submit button{
     border: none;
     outline: none;
-    padding: 16px 0;
+    padding: 16px;
     width: 100%;
+    background-color: var(--sigup-color);
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+.auth-form__submit span{
+    
 }
 
 .auth-form__control {
 
 }
 
-.auth-form__forgot-password {
+.auth-form__forget-password {
     display: inline-block;
     font-size: 14px;
+    
 }
 
 .auth-form__forgot-password a{
     text-decoration: none;
+    color: #606266;
 }
 
 .auth-form__sign-up {
     display: inline-block;
     font-size: 14px;
-}
-
-.auth-form__sign-up a{
-    text-decoration: none;
+    
 }
 
 .auth-form__aside {
@@ -889,46 +892,60 @@ html {
 }
 
 .auth-form__checkbox-input {
-
+    position: relative;
+    display: inline-block;
+    margin-top: 2px;
 }
 
 .auth-form__checkbox-original {
-
+    display: none; /* Ẩn checkbox gốc */
 }
 
 .auth-form__checkbox-inner {
     cursor: pointer;
     position: absolute;
-    width: 17px;
-    height: 17px;
-    top: -1px;
-    left: 2px;
+    width: 19px;
+    height: 19px;
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: 50%;
+    border-radius: 50%; /* Tạo hình tròn */
 }
 
-.auth-form__checkbox-original:checked + .auth-form__checkbox-inner::after {
-    opacity: 0.8;
+/* Đặt dấu kiểm */
+.auth-form__checkbox-inner::after {
     content: '';
     position: absolute;
-    width: 9px;
+    width: 8px;
     height: 5px;
-    background: transparent;
-    top: 5px;
+    top: 4px;
     left: 4px;
+    background: transparent;
     border: 2px solid white;
     border-top: none;
     border-right: none;
     transform: rotate(-45deg);
+    display: none; /* Ẩn dấu kiểm ban đầu */
 }
+
+/* Khi checkbox được chọn, hiện dấu kiểm */
+.auth-form__checkbox-original:checked + .auth-form__checkbox-inner::after {
+    display: block;
+    opacity: 0.8;
+}
+
+/* Thay đổi nền và màu đường viền khi được chọn */
+.auth-form__checkbox-original:checked + .auth-form__checkbox-inner {
+    background-color: #039be5; /* Màu nền khi checkbox được chọn */
+    border-color: #039be5; /* Màu đường viền khi checkbox được chọn */
+}
+
 
 
 .auth-form__checkbox-text {
     font-size: 12px;
     color: #6b707b;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .auth-form__checkbox-text span {
@@ -941,4 +958,32 @@ html {
     color: red;
 }
 
+.auth-form__submit {
+    background-color: var(--sigup-color);
+}
 
+.auth-form__had-account {
+    display: inline-block;
+    font-size: 14px;
+    
+}
+
+.auth-form__had-account a{
+    text-decoration: none;
+    color: #606266;
+}
+
+.auth-form__sign-in {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.auth-form__close {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    user-select: none;
+    font-size: 14px;
+}

@@ -123,7 +123,7 @@ html {
     bottom: 0;
     left: 0;
     z-index: 1;
-    display: flex;
+    display: none;
 }
 
 .modal-overlay {
@@ -134,7 +134,7 @@ html {
 }
 
 .modal-body {
-    width: 400px;
+    width: 450px;
     background-color: white;
     margin: auto;
     position: relative;
@@ -151,5 +151,17 @@ html {
 .info-value {
     font-size: 14px;
     color: #000;
+}
+
+.disable {
+    background-color: #e7e8ee;
+    color: #b9bcc6;
+    cursor: not-allowed !important;
+    pointer-events: none;
+}
+
+.click-log {
+    text-decoration: none;
+    color: var(--text-color-hover);
 }
 
