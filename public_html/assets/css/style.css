@@ -871,7 +871,7 @@ html {
     
 }
 
-.auth-form__forgot-password a{
+.auth-form__forget-password a{
     text-decoration: none;
     color: #606266;
 }
@@ -986,17 +986,6 @@ html {
     right: 16px;
     user-select: none;
     font-size: 14px;
-}
-
-.js-modal {
-    display: block;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    z-index: 1000;
+    cursor: pointer;
 }
 
