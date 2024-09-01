@@ -5,8 +5,11 @@
         <link rel="icon" type="image/x-icon" href="">
         <link rel="stylesheet" href="/public_html/assets/css/profile.css">
         <link rel="stylesheet" href="/public_html/assets/css/base.css">
+        <link rel="stylesheet" href="/public_html/assets/css/register.css">
         <link rel="stylesheet" href="/public_html/assets/icon/themify-icons-font/themify-icons/themify-icons.css">
         <link rel="stylesheet" href="/public_html/assets/icon/fontawesome-free-6.5.2-web/css/all.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        
     </head>
 
     <body>
@@ -50,8 +53,8 @@
                 
                 <div div class="nav-user">
                     <ul>
-                        <li><button class="login-user">Đăng nhập</button></li>
-                        <li><button class="sigup-user">Đăng kí</button></li>
+                        <li><button class="login-user js-login">Đăng nhập</button></li>
+                        <li><button class="sigup-user js-register">Đăng kí</button></li>
                     </ul>
                 </div>
             </div>
@@ -292,5 +295,128 @@
 
             </div>
         </div>
+
+        <!-- modal layout -->
+        <!-- authen form (login/register) -->
+        <div class="modal js-modal-login">
+            <div class="modal-overlay"></div>
+
+            <div class="modal-body">
+                <!-- login form -->
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__logo"></div>
+
+                        <div class="auth-form__header">
+                            <h3 class="auth-form-heading">Đăng nhập</h3>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Tên đăng nhập">
+                            </div>
+
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Mật khẩu">
+                            </div>
+                        </div>
+
+                        <button class="auth-form__submit disable">
+                            <span>Đăng nhập</span>
+                        </button>
+
+                        <div class="auth-form__control">
+                            <div class="auth-form__forget-password">
+                                <a href="#">Quên mật khẩu?</a>
+                            </div>
+
+                            <div class="auth-form__sign-up">
+                                <a href="#" class="click-log">Đăng ký</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__close js-modal-close-login">
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="modal js-modal-register">
+            <div class="modal-overlay"></div>
+
+            <div class="modal-body">
+                <!-- register form -->
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__logo"></div>
+
+                        <div class="auth-form__header">
+                            <h3 class="auth-form-heading">Đăng ký</h3>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Tên đăng nhập">
+                            </div>
+
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email">
+                            </div>
+
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Nhập mật khẩu">
+                            </div>
+
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <label for class="auth-form__checkbox">
+                                <span class="auth-form__checkbox-input">
+                                    <input type="checkbox" class="auth-form__checkbox-original" id="agreement-check">
+                                    <label for="agreement-check" class="auth-form__checkbox-inner">
+                                        
+                                    </label>
+                                </span>
+
+                                <span class="auth-form__checkbox-text">
+                                    <span>Tôi đã đọc và đồng ý</span>
+                                    <span><a href="#">Điều Khoản Dịch Vụ</a></span>
+                                    <span>&</span>
+                                    <span><a href="#">Chính Sách Về Quyền Riêng Tư</a></span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <button class="auth-form__submit disable">
+                            <span>Đăng ký</span>
+                        </button>
+
+                        <div class="auth-form__control">
+                            <div class="auth-form__had-account">
+                                <a href="#">Đã có tài khoản?</a>
+                            </div>
+
+                            <div class="auth-form__sign-in">
+                                <a href="#" class="click-log">Đăng nhập</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__close js-modal-close-register">
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="/public_html/assets/js/loadPage.js"></script>
     </body>
 </html>

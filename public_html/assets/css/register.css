@@ -1,0 +1,192 @@
+.auth-form {
+
+}
+
+.auth-form__container {
+    padding: 32px;
+    text-align: center;
+}
+
+.auth-form__logo {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+    background-size: 100% 100%;
+}
+
+.auth-form__header {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #242629;
+    text-align: center;
+    margin: 18px 0;
+}
+
+.auth-form__form {
+
+}
+
+.auth-form__group {
+    border-radius: 12px;
+    border: 1px solid #c0c4cc;
+    width: 100%;
+    line-height: 32px;
+    position: relative;
+    margin-top: 16px;
+}
+
+.auth-form__input {
+    border-radius: 12px;
+    padding: 14px;
+    width: 100%;
+    font-size: 14px;
+    border: none;
+    outline: 0;
+}
+
+.auth-form__submit {
+    margin-top: 20px;
+    margin-bottom: 12px;
+    border: none;
+    outline: none;
+    padding: 16px;
+    width: 100%;
+    background-color: var(--sigup-color);
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+.auth-form__submit span{
+    
+}
+
+.auth-form__control {
+
+}
+
+.auth-form__forget-password {
+    display: inline-block;
+    font-size: 14px;
+    
+}
+
+.auth-form__forget-password a{
+    text-decoration: none;
+    color: #606266;
+}
+
+.auth-form__sign-up {
+    display: inline-block;
+    font-size: 14px;
+    
+}
+
+.auth-form__aside {
+    margin-top: 16px;
+    font-size: 12px;
+}
+.auth-form__checkbox {
+    display: flex;
+
+}
+
+.auth-form__checkbox-input {
+    position: relative;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.auth-form__checkbox-original {
+    display: none; /* Ẩn checkbox gốc */
+}
+
+.auth-form__checkbox-inner {
+    cursor: pointer;
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%; /* Tạo hình tròn */
+}
+
+/* Đặt dấu kiểm */
+.auth-form__checkbox-inner::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 5px;
+    top: 4px;
+    left: 4px;
+    background: transparent;
+    border: 2px solid white;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    display: none; /* Ẩn dấu kiểm ban đầu */
+}
+
+/* Khi checkbox được chọn, hiện dấu kiểm */
+.auth-form__checkbox-original:checked + .auth-form__checkbox-inner::after {
+    display: block;
+    opacity: 0.8;
+}
+
+/* Thay đổi nền và màu đường viền khi được chọn */
+.auth-form__checkbox-original:checked + .auth-form__checkbox-inner {
+    background-color: #039be5; /* Màu nền khi checkbox được chọn */
+    border-color: #039be5; /* Màu đường viền khi checkbox được chọn */
+}
+
+
+
+.auth-form__checkbox-text {
+    font-size: 12px;
+    color: #6b707b;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.auth-form__checkbox-text span {
+
+}
+
+
+.auth-form__checkbox-text a {
+    text-decoration: none;
+    color: red;
+}
+
+.auth-form__submit {
+    background-color: var(--sigup-color);
+}
+
+.auth-form__had-account {
+    display: inline-block;
+    font-size: 14px;
+    
+}
+
+.auth-form__had-account a{
+    text-decoration: none;
+    color: #606266;
+}
+
+.auth-form__sign-in {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.auth-form__close {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    user-select: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
