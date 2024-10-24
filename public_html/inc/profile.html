@@ -1,422 +1,451 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>SayuneNovel</title>
-        <link rel="icon" type="image/x-icon" href="">
-        <link rel="stylesheet" href="/public_html/assets/css/profile.css">
-        <link rel="stylesheet" href="/public_html/assets/css/base.css">
-        <link rel="stylesheet" href="/public_html/assets/css/register.css">
-        <link rel="stylesheet" href="/public_html/assets/icon/themify-icons-font/themify-icons/themify-icons.css">
-        <link rel="stylesheet" href="/public_html/assets/icon/fontawesome-free-6.5.2-web/css/all.css">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        
-    </head>
+  <head>
+    <title>SayuneNovel</title>
+    <link rel="icon" type="image/x-icon" href="" />
+    <link rel="stylesheet" href="/public_html/assets/css/profile.css" />
+    <link rel="stylesheet" href="/public_html/assets/css/base.css" />
+    <link rel="stylesheet" href="/public_html/assets/css/register.css" />
+    <link
+      rel="stylesheet"
+      href="/public_html/assets/icon/themify-icons-font/themify-icons/themify-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/public_html/assets/icon/fontawesome-free-6.5.2-web/css/all.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
 
-    <body>
-        <div id="header">
-            <!-- begin nav -->
-            <div id="nav">
-                <div class="nav-logo">
-                    <a href="/index.html"><img src="/public_html/assets/img/logo/android-icon-144x144.png" alt="logo"></a>
-                </div>
-                
-                <div class="nav-container">
-                    <ul class="nav-menu">
-                        <li><a href="/index.html">Trang chủ</a></li>
-                        <li><a href="#">Danh sách</a></li>
-                        <li>
-                            <a href="#">
-                                Hướng dẫn
-                                <i class="nav-arrow-down ti-angle-down"></i>
-                            </a>
-
-                            <ul class="sub-nav-menu">
-                                <li><a href="#">Giới thiệu</a></li>
-                                <li><a href="#">Đăng truyện</a></li>
-                                <li><a href="#">Góp ý - Báo lỗi</a></li>
-                            </ul>
-                        </li>    
-                    </ul>
-                </div>
-            </div>
-
-            
-                
-            <div class="nav-container-user">
-                <div class="nav-search">
-                    <form action="">
-                        <input class="search-input" type="text" placeholder="Search">
-                        <button class="search-submit"><i class="ti-search"></i></button>
-                    </form>
-                </div>
-                
-                
-                <div div class="nav-user">
-                    <ul>
-                        <li><button class="login-user js-login">Đăng nhập</button></li>
-                        <li><button class="sigup-user js-register">Đăng kí</button></li>
-                    </ul>
-                </div>
-            </div>
-        </div>    
-        
-        
-        <div id="profile" style="min-height: 100vh;">
-            <div id="main">
-                <div class="profile-user grid__full-width">
-                    <div class="profile-background row">
-
-                        <div class="save-edit-img-profile">
-
-                        </div>
-
-                        <div class="profile-background-container col-lg-8">
-                            <div class="detail-profile-background grid__full-width">
-                                <div class="background-sub grid__full-width" style="top: calc(-100% + 0px);">
-                                    <img src="/public_html/assets/img/background-profile/sekai-ka-kanojo-erabenai.png" alt="" class="background-data grid__full-width">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="profile-info row">
-                        <div class="detail-profile col-lg-8">
-                            <div class="profile-container row">
-                                <div class="avatar-profile">
-                                    <div class="avatar-profile-user">
-                                        <div class="avatar-data"></div>
-                                    </div>
-                                </div>
-
-                                <div class="info-user">
-                                    <div class="name-user">
-                                        Sayune Shiranai
-                                    </div>
-                                </div>
-
-                                <div class="info-another">
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-lg-3">
-                            <div class="statistic-profile row">
-                                <div class="title-profile">
-                                    <div class="level-profile row">
-                                        <strong>Cấp 1</strong>
-                                        <strong>Cấp 2</strong>
-                                    </div>
-
-                                    <div class="exp-profile">
-                                        <div class="detail-exp-profile">
-
-                                        </div>
-
-                                        <div class="rate-exp-profile">
-                                            <div class="text-exp-profile">
-                                                50%
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="text-base">
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="statistic-profile row">
-                                <div class="col-lg-6 col-12">
-                                    <div class="statistic-value">
-                                        1000
-                                    </div>
-
-                                    <div class="statistic-name">
-                                        Chương đã đăng
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6 col-12">
-                                    <div class="statistic-value">
-                                        20
-                                    </div>
-
-                                    <div class="statistic-name">
-                                        Đang theo dõi
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-12 mt-2">
-                                    <div class="statistic-value">
-                                        5000
-                                    </div>
-
-                                    <div class="statistic-name">
-                                        Bình luận
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="sect-body statistic-profile">
-                                <div class="info-name profile-info-items">
-                                    <strong class="info-name">
-                                        <i class="fa-solid fa-clock-rotate-left"></i>
-                                        Biệt danh:
-                                    </strong>
-
-                                    <span class="info-value">
-                                        Sayune
-                                    </span>
-                                </div>
-
-                                <div class="detail-info-items profile-info-items">
-                                    <p>'The more hope you hold.The more despair you'll feel'</p>
-                                </div>
-
-                                <div class="info-date-of-birth profile-info-items">
-                                    <strong class="info-name">
-                                        <i class="fa-solid fa-calendar"></i>
-                                        Ngày sinh:
-                                    </strong>
-
-                                    <span class="info-value">
-                                        14/04/2004
-                                    </span>
-                                </div>
-
-                                <div class="info-favorite profile-info-items">
-                                    <strong class="info-name">
-                                        <i class="fa-solid fa-star"></i>
-                                        Sở thích:
-                                    </strong>
-
-                                    <span class="info-value">
-                                        Romcom is the best
-                                    </span>
-                                </div>
-
-                                <div class="info-joined profile-info-items">
-                                    <strong class="info-name">
-                                        <i class="fa-solid fa-users"></i>
-                                        Tham gia:
-                                    </strong>
-
-                                    <span class="info-value">
-                                        14/04/2004
-                                    </span>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-lg-9">
-                            <div class="profile-showcase">
-                                <header>
-                                    <span>Truyện đã đăng</span>
-                                </header>
-
-                                <div class="row">
-                                    <div class="col-12 col-lg-6">
-                                        <div class="showcase-item">
-                                            <div class="row">
-                                                <div class="series-showcase-item col-lg-4">
-                                                    <div class="showcase-item-img">
-                                                        <a href="#" style="background-image: url('/public_html/assets/img/new/s8252-0346ad8b-a078-491b-ad09-dfdf065a2615.jpg');"></a>
-                                                    </div>
-                                                </div>
-
-                                                <div class="title-showcase-item col-lg-8">
-                                                    <div class="series-info">
-                                                        <div class="title-series">
-                                                            <a href="#" title="Kết hôn với đứa con gái mà tôi cực ghét trong lớp.">
-                                                                Kết hôn với đứa con gái mà tôi cực ghét trong lớp.
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="detail-series">
-                                                        <div class="chapter-info">
-                                                            <a href="#">Chapter 2</a>
-                                                        </div>
-
-                                                        <div class="detail-time-info">
-                                                            <time class="time-info" title="12-07-2024 02:08:48" datetime="2024-07-12T02:08:48+07:00">1 ngày</time>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col-12 col-lg-6">
-                                        <div class="showcase-item">
-                                            <div class="row">
-                                                <div class="series-showcase-item col-lg-4">
-                                                    <div class="showcase-item-img">
-                                                        <a href="#" style="background-image: url('/public_html/assets/img/new/s8252-0346ad8b-a078-491b-ad09-dfdf065a2615.jpg');"></a>
-                                                    </div>
-                                                </div>
-
-                                                <div class="title-showcase-item col-lg-8">
-                                                    <div class="series-info">
-                                                        <div class="title-series">
-                                                            <a href="#" title="Kết hôn với đứa con gái mà tôi cực ghét trong lớp.">
-                                                                Kết hôn với đứa con gái mà tôi cực ghét trong lớp.
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="detail-series">
-                                                        <div class="chapter-info">
-                                                            <a href="#">Chapter 2</a>
-                                                        </div>
-
-                                                        <div class="detail-time-info">
-                                                            <time class="time-info" title="12-07-2024 02:08:48" datetime="2024-07-12T02:08:48+07:00">1 ngày</time>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+  <body>
+    <div id="header">
+      <!-- begin nav -->
+      <div id="nav">
+        <div class="nav-logo">
+          <a href="/index.html"
+            ><img
+              src="/public_html/assets/img/logo/android-icon-144x144.png"
+              alt="logo"
+          /></a>
         </div>
 
-        <!-- modal layout -->
-        <!-- authen form (login/register) -->
-        <div class="modal js-modal-login">
-            <div class="modal-overlay"></div>
+        <div class="nav-container">
+          <ul class="nav-menu">
+            <li><a href="/index.html">Trang chủ</a></li>
+            <li><a href="#">Danh sách</a></li>
+            <li>
+              <a href="#">
+                Hướng dẫn
+                <i class="nav-arrow-down ti-angle-down"></i>
+              </a>
 
-            <div class="modal-body">
-                <!-- login form -->
-                <div class="auth-form">
-                    <div class="auth-form__container">
-                        <div class="auth-form__logo"></div>
+              <ul class="sub-nav-menu">
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Đăng truyện</a></li>
+                <li><a href="#">Góp ý - Báo lỗi</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-                        <div class="auth-form__header">
-                            <h3 class="auth-form-heading">Đăng nhập</h3>
-                        </div>
-
-                        <div class="auth-form__form">
-                            <div class="auth-form__group">
-                                <input type="text" class="auth-form__input" placeholder="Tên đăng nhập">
-                            </div>
-
-                            <div class="auth-form__group">
-                                <input type="text" class="auth-form__input" placeholder="Mật khẩu">
-                            </div>
-                        </div>
-
-                        <button class="auth-form__submit disable">
-                            <span>Đăng nhập</span>
-                        </button>
-
-                        <div class="auth-form__control">
-                            <div class="auth-form__forget-password">
-                                <a href="#">Quên mật khẩu?</a>
-                            </div>
-
-                            <div class="auth-form__sign-up">
-                                <a href="#" class="click-log">Đăng ký</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="auth-form__close js-modal-close-login">
-                        <i class="fa-solid fa-x"></i>
-                    </div>
-                </div>
-
-            </div>
+      <div class="nav-container-user">
+        <div class="nav-search">
+          <form action="">
+            <input class="search-input" type="text" placeholder="Search" />
+            <button class="search-submit"><i class="ti-search"></i></button>
+          </form>
         </div>
 
+        <div div class="nav-user">
+          <ul>
+            <li><button class="login-user js-login">Đăng nhập</button></li>
+            <li><button class="sigup-user js-register">Đăng kí</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-        <div class="modal js-modal-register">
-            <div class="modal-overlay"></div>
+    <div id="profile" style="min-height: 100vh">
+      <div id="main">
+        <div class="profile-user grid__full-width">
+          <div class="profile-background row">
+            <div class="save-edit-img-profile"></div>
 
-            <div class="modal-body">
-                <!-- register form -->
-                <div class="auth-form">
-                    <div class="auth-form__container">
-                        <div class="auth-form__logo"></div>
+            <div class="profile-background-container col-lg-8">
+              <div class="detail-profile-background grid__full-width">
+                <div
+                  class="background-sub grid__full-width"
+                  style="top: calc(-100% + 0px)"
+                >
+                  <img
+                    src="/public_html/assets/img/background-profile/sekai-ka-kanojo-erabenai.png"
+                    alt=""
+                    class="background-data grid__full-width"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
 
-                        <div class="auth-form__header">
-                            <h3 class="auth-form-heading">Đăng ký</h3>
-                        </div>
-
-                        <div class="auth-form__form">
-                            <div class="auth-form__group">
-                                <input type="text" class="auth-form__input" placeholder="Tên đăng nhập">
-                            </div>
-
-                            <div class="auth-form__group">
-                                <input type="text" class="auth-form__input" placeholder="Email">
-                            </div>
-
-                            <div class="auth-form__group">
-                                <input type="text" class="auth-form__input" placeholder="Nhập mật khẩu">
-                            </div>
-
-                            <div class="auth-form__group">
-                                <input type="text" class="auth-form__input" placeholder="Nhập lại mật khẩu">
-                            </div>
-                        </div>
-
-                        <div class="auth-form__aside">
-                            <label for class="auth-form__checkbox">
-                                <span class="auth-form__checkbox-input">
-                                    <input type="checkbox" class="auth-form__checkbox-original" id="agreement-check">
-                                    <label for="agreement-check" class="auth-form__checkbox-inner">
-                                        
-                                    </label>
-                                </span>
-
-                                <span class="auth-form__checkbox-text">
-                                    <span>Tôi đã đọc và đồng ý</span>
-                                    <span><a href="#">Điều Khoản Dịch Vụ</a></span>
-                                    <span>&</span>
-                                    <span><a href="#">Chính Sách Về Quyền Riêng Tư</a></span>
-                                </span>
-                            </label>
-                        </div>
-
-                        <button class="auth-form__submit disable">
-                            <span>Đăng ký</span>
-                        </button>
-
-                        <div class="auth-form__control">
-                            <div class="auth-form__had-account">
-                                <a href="#">Đã có tài khoản?</a>
-                            </div>
-
-                            <div class="auth-form__sign-in">
-                                <a href="#" class="click-log">Đăng nhập</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="auth-form__close js-modal-close-register">
-                        <i class="fa-solid fa-x"></i>
-                    </div>
+          <div class="profile-info row">
+            <div class="detail-profile col-lg-8">
+              <div class="profile-container row">
+                <div class="avatar-profile">
+                  <div class="avatar-profile-user">
+                    <div class="avatar-data"></div>
+                  </div>
                 </div>
 
+                <div class="info-user">
+                  <div class="name-user">Sayune Shiranai</div>
+                </div>
+
+                <div class="info-another"></div>
+              </div>
             </div>
+          </div>
         </div>
 
-        <script src="/public_html/assets/js/loadPage.js"></script>
-    </body>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-3">
+              <div class="statistic-profile row">
+                <div class="title-profile">
+                  <div class="level-profile row">
+                    <strong>Cấp 1</strong>
+                    <strong>Cấp 2</strong>
+                  </div>
+
+                  <div class="exp-profile">
+                    <div class="detail-exp-profile"></div>
+
+                    <div class="rate-exp-profile">
+                      <div class="text-exp-profile">50%</div>
+                    </div>
+                  </div>
+
+                  <div class="text-base"></div>
+                </div>
+              </div>
+
+              <div class="statistic-profile row">
+                <div class="col-lg-6 col-12">
+                  <div class="statistic-value">1000</div>
+
+                  <div class="statistic-name">Chương đã đăng</div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <div class="statistic-value">20</div>
+
+                  <div class="statistic-name">Đang theo dõi</div>
+                </div>
+
+                <div class="col-lg-12 col-12 mt-2">
+                  <div class="statistic-value">5000</div>
+
+                  <div class="statistic-name">Bình luận</div>
+                </div>
+              </div>
+
+              <div class="sect-body statistic-profile">
+                <div class="info-name profile-info-items">
+                  <strong class="info-name">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    Biệt danh:
+                  </strong>
+
+                  <span class="info-value"> Sayune </span>
+                </div>
+
+                <div class="detail-info-items profile-info-items">
+                  <p>'The more hope you hold.The more despair you'll feel'</p>
+                </div>
+
+                <div class="info-date-of-birth profile-info-items">
+                  <strong class="info-name">
+                    <i class="fa-solid fa-calendar"></i>
+                    Ngày sinh:
+                  </strong>
+
+                  <span class="info-value"> 14/04/2004 </span>
+                </div>
+
+                <div class="info-favorite profile-info-items">
+                  <strong class="info-name">
+                    <i class="fa-solid fa-star"></i>
+                    Sở thích:
+                  </strong>
+
+                  <span class="info-value"> Romcom is the best </span>
+                </div>
+
+                <div class="info-joined profile-info-items">
+                  <strong class="info-name">
+                    <i class="fa-solid fa-users"></i>
+                    Tham gia:
+                  </strong>
+
+                  <span class="info-value"> 14/04/2004 </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-9">
+              <div class="profile-showcase">
+                <header>
+                  <span>Truyện đã đăng</span>
+                </header>
+
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                    <div class="showcase-item">
+                      <div class="row">
+                        <div class="series-showcase-item col-lg-4">
+                          <div class="showcase-item-img">
+                            <a
+                              href="#"
+                              style="
+                                background-image: url('/public_html/assets/img/new/s8252-0346ad8b-a078-491b-ad09-dfdf065a2615.jpg');
+                              "
+                            ></a>
+                          </div>
+                        </div>
+
+                        <div class="title-showcase-item col-lg-8">
+                          <div class="series-info">
+                            <div class="title-series">
+                              <a
+                                href="#"
+                                title="Kết hôn với đứa con gái mà tôi cực ghét trong lớp."
+                              >
+                                Kết hôn với đứa con gái mà tôi cực ghét trong
+                                lớp.
+                              </a>
+                            </div>
+                          </div>
+
+                          <div class="detail-series">
+                            <div class="chapter-info">
+                              <a href="#">Chapter 2</a>
+                            </div>
+
+                            <div class="detail-time-info">
+                              <time
+                                class="time-info"
+                                title="12-07-2024 02:08:48"
+                                datetime="2024-07-12T02:08:48+07:00"
+                                >1 ngày</time
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-6">
+                    <div class="showcase-item">
+                      <div class="row">
+                        <div class="series-showcase-item col-lg-4">
+                          <div class="showcase-item-img">
+                            <a
+                              href="#"
+                              style="
+                                background-image: url('/public_html/assets/img/new/s8252-0346ad8b-a078-491b-ad09-dfdf065a2615.jpg');
+                              "
+                            ></a>
+                          </div>
+                        </div>
+
+                        <div class="title-showcase-item col-lg-8">
+                          <div class="series-info">
+                            <div class="title-series">
+                              <a
+                                href="#"
+                                title="Kết hôn với đứa con gái mà tôi cực ghét trong lớp."
+                              >
+                                Kết hôn với đứa con gái mà tôi cực ghét trong
+                                lớp.
+                              </a>
+                            </div>
+                          </div>
+
+                          <div class="detail-series">
+                            <div class="chapter-info">
+                              <a href="#">Chapter 2</a>
+                            </div>
+
+                            <div class="detail-time-info">
+                              <time
+                                class="time-info"
+                                title="12-07-2024 02:08:48"
+                                datetime="2024-07-12T02:08:48+07:00"
+                                >1 ngày</time
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal layout -->
+    <!-- authen form (login/register) -->
+    <div class="modal js-modal-login">
+      <div class="modal-overlay"></div>
+
+      <div class="modal-body">
+        <!-- login form -->
+        <div class="auth-form">
+          <div class="auth-form__container">
+            <div class="auth-form__logo"></div>
+
+            <div class="auth-form__header">
+              <h3 class="auth-form-heading">Đăng nhập</h3>
+            </div>
+
+            <div class="auth-form__form">
+              <div class="auth-form__group">
+                <input
+                  type="text"
+                  class="auth-form__input"
+                  placeholder="Tên đăng nhập"
+                />
+              </div>
+
+              <div class="auth-form__group">
+                <input
+                  type="text"
+                  class="auth-form__input"
+                  placeholder="Mật khẩu"
+                />
+              </div>
+            </div>
+
+            <button class="auth-form__submit disable">
+              <span>Đăng nhập</span>
+            </button>
+
+            <div class="auth-form__control">
+              <div class="auth-form__forget-password">
+                <a href="#">Quên mật khẩu?</a>
+              </div>
+
+              <div class="auth-form__sign-up">
+                <a href="#" class="click-log">Đăng ký</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="auth-form__close js-modal-close-login">
+            <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal js-modal-register">
+      <div class="modal-overlay"></div>
+
+      <div class="modal-body">
+        <!-- register form -->
+        <div class="auth-form">
+          <div class="auth-form__container">
+            <div class="auth-form__logo"></div>
+
+            <div class="auth-form__header">
+              <h3 class="auth-form-heading">Đăng ký</h3>
+            </div>
+
+            <div class="auth-form__form">
+              <div class="auth-form__group">
+                <input
+                  type="text"
+                  class="auth-form__input"
+                  placeholder="Tên đăng nhập"
+                />
+              </div>
+
+              <div class="auth-form__group">
+                <input
+                  type="text"
+                  class="auth-form__input"
+                  placeholder="Email"
+                />
+              </div>
+
+              <div class="auth-form__group">
+                <input
+                  type="text"
+                  class="auth-form__input"
+                  placeholder="Nhập mật khẩu"
+                />
+              </div>
+
+              <div class="auth-form__group">
+                <input
+                  type="text"
+                  class="auth-form__input"
+                  placeholder="Nhập lại mật khẩu"
+                />
+              </div>
+            </div>
+
+            <div class="auth-form__aside">
+              <label for class="auth-form__checkbox">
+                <span class="auth-form__checkbox-input">
+                  <input
+                    type="checkbox"
+                    class="auth-form__checkbox-original"
+                    id="agreement-check"
+                  />
+                  <label
+                    for="agreement-check"
+                    class="auth-form__checkbox-inner"
+                  >
+                  </label>
+                </span>
+
+                <span class="auth-form__checkbox-text">
+                  <span>Tôi đã đọc và đồng ý</span>
+                  <span><a href="#">Điều Khoản Dịch Vụ</a></span>
+                  <span>&</span>
+                  <span><a href="#">Chính Sách Về Quyền Riêng Tư</a></span>
+                </span>
+              </label>
+            </div>
+
+            <button class="auth-form__submit disable">
+              <span>Đăng ký</span>
+            </button>
+
+            <div class="auth-form__control">
+              <div class="auth-form__had-account">
+                <a href="#">Đã có tài khoản?</a>
+              </div>
+
+              <div class="auth-form__sign-in">
+                <a href="#" class="click-log">Đăng nhập</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="auth-form__close js-modal-close-register">
+            <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/public_html/assets/js/loadPage.js"></script>
+  </body>
 </html>
